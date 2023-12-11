@@ -1,0 +1,100 @@
+.container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.container .easy {
+  width: 30%;
+  background-color: #122868;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .easy img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.container .easy button {
+  background-color: #3140af;
+  width: 200px;
+  height: 50px;
+  font-size: 1em;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.container .side {
+  padding: 30px;
+  background-color: #3140af;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container .side .one {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: 25%;
+}
+.container .side .two {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: 25%;
+}
+.container .side .three {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: 25%;
+}
+.container .side .four {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  width: 25%;
+}
+
+.side > div > a:nth-child(1) {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.side > div > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.597);
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.814);
+  color: white;
+}
+.foot .one1 {
+  display: flex;
+  flesdirection: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.foot .one1 p {
+  margin-right: 20px;
+}
+.foot .one2 {
+  display: flex;
+  flesdirection: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.foot .one2 p {
+  margin-left: 20px;
+}
+.foot .one2 a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
